@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QRGenerate"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:fontFamily="@font/karma_semibold"
+        android:hint="Enter Text"
+        android:padding="12dp"
+        android:backgroundTint="#F4FBEB"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bt_generate"
+    android:text="Generate"
+    android:layout_marginTop="16dp"
+    android:fontFamily="@font/karma_semibold"
+    android:backgroundTint="#7E4CAF50"></Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_output"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        ></ImageView>
+
+
+
+
+
+</LinearLayout>
